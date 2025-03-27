@@ -37,7 +37,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		08EC10062D954ADE000F3E3D /* Exceptions for "TechnicalAssignmentTests" folder in "TechnicalAssignmentTests" target */ = {
+		08BEE6BC2D95809900F29FEA /* Exceptions for "TechnicalAssignmentTests" folder in "TechnicalAssignment" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppNavigatorTests.swift,
+				CanvasViewModelEnumTests.swift,
+				CanvasViewModelTests.swift,
+				PhotoEditViewModelTests.swift,
+				TechnicalAssignmentTests.swift,
+			);
+			target = 083E68422D92316D00F12D60 /* TechnicalAssignment */;
+		};
+		08BEE6BD2D95809900F29FEA /* Exceptions for "TechnicalAssignmentTests" folder in "TechnicalAssignmentTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				AppNavigatorTests.swift,
@@ -48,7 +59,15 @@
 			);
 			target = 083E68522D92317000F12D60 /* TechnicalAssignmentTests */;
 		};
-		08EC10172D954AE2000F3E3D /* Exceptions for "TechnicalAssignmentUITests" folder in "TechnicalAssignmentUITests" target */ = {
+		08BEE6C82D9580CA00F29FEA /* Exceptions for "TechnicalAssignmentUITests" folder in "TechnicalAssignment" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				TechnicalAssignmentUITests.swift,
+				TechnicalAssignmentUITestsLaunchTests.swift,
+			);
+			target = 083E68422D92316D00F12D60 /* TechnicalAssignment */;
+		};
+		08BEE6C92D9580CA00F29FEA /* Exceptions for "TechnicalAssignmentUITests" folder in "TechnicalAssignmentUITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				TechnicalAssignmentUITests.swift,
@@ -67,7 +86,8 @@
 		08EC0FFF2D954ADE000F3E3D /* TechnicalAssignmentTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				08EC10062D954ADE000F3E3D /* Exceptions for "TechnicalAssignmentTests" folder in "TechnicalAssignmentTests" target */,
+				08BEE6BC2D95809900F29FEA /* Exceptions for "TechnicalAssignmentTests" folder in "TechnicalAssignment" target */,
+				08BEE6BD2D95809900F29FEA /* Exceptions for "TechnicalAssignmentTests" folder in "TechnicalAssignmentTests" target */,
 			);
 			path = TechnicalAssignmentTests;
 			sourceTree = "<group>";
@@ -75,7 +95,8 @@
 		08EC10122D954AE2000F3E3D /* TechnicalAssignmentUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				08EC10172D954AE2000F3E3D /* Exceptions for "TechnicalAssignmentUITests" folder in "TechnicalAssignmentUITests" target */,
+				08BEE6C82D9580CA00F29FEA /* Exceptions for "TechnicalAssignmentUITests" folder in "TechnicalAssignment" target */,
+				08BEE6C92D9580CA00F29FEA /* Exceptions for "TechnicalAssignmentUITests" folder in "TechnicalAssignmentUITests" target */,
 			);
 			path = TechnicalAssignmentUITests;
 			sourceTree = "<group>";
@@ -226,6 +247,7 @@
 					};
 					083E685C2D92317000F12D60 = {
 						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
 						TestTargetID = 083E68422D92316D00F12D60;
 					};
 				};
@@ -541,6 +563,7 @@
 		083E686E2D92317000F12D60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 99P97A565G;
@@ -550,6 +573,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.joystudio.TechnicalAssignmentUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "TechnicalAssignmentUITests/TechnicalAssignmentUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TechnicalAssignment;
@@ -559,6 +584,7 @@
 		083E686F2D92317000F12D60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 99P97A565G;
@@ -568,6 +594,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.joystudio.TechnicalAssignmentUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "TechnicalAssignmentUITests/TechnicalAssignmentUITests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TechnicalAssignment;
