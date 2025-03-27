@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  TechnicalAssignment
+
+  Created by Pham Nguyen Nhat Anh on 27/3/25.
+  
+*/
+
+app.title = "기술 과제";
+up = "위";
+down = "아래";
+left = "왼쪽";
+right = "오른쪽";
+
+vibrance_title = "생동감";
+clahe_title = "CLAHE";
+tile_size_title = "타일 크기";
+
+canvas_view_name = "캔버스";
+photo_edit_view_name = "사진 편집";
